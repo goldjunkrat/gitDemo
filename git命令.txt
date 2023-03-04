@@ -16,4 +16,26 @@
 		将暂存的文件存储到仓库中,使文件从暂存切换到未修改状态
 	git commit -a
 		将所有已修改的文件直接提交到代码仓库中,省去add的流程(未跟踪的文件不会提交)
-	
+常用的命令:
+	git restore 文件名/*
+		将指定文件恢复到上次commit的状态
+	git restore --staged 文件名
+		将指定文件从暂存状态取消
+	git rm 文件名
+		删除指定文件
+	git rm 文件名 -f
+		强制删除指定文件
+	git mv 旧文件名 新文件名 from to
+		移动文件 重命名文件
+分支:
+	git branch
+		查看当前分支
+	git branch 分支名
+		创建一个新的分支
+	git branch 分支名 -d
+		删除一个分支
+	git switch 分支名
+		切换到目标分支
+	git switch -c 分支名
+		创建并切换到该分支
+这是zxn分支的git命令文件
