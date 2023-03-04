@@ -1,0 +1,16 @@
+配置:
+	name
+		git config --global user.name "zhangxinnan"
+	email
+		git config --global user.email "1016217659@qq.com"
+使用git:
+	git status
+		查看当前仓库的状态
+	git init
+		初始化仓库
+	git add 文件名
+		将文件从未跟踪切换到暂存状态
+	git commit -m "提交信息"
+		将暂存的文件存储到仓库中,使文件从暂存切换到未修改状态
+	修改代码后,文件会变为修改状态
+	
